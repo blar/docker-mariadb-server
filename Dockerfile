@@ -1,6 +1,5 @@
 FROM alpine:3.7
 
-RUN apk add --no-cache mariadb mariadb-client
 COPY src /
 RUN mysql-setup
 

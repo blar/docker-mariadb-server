@@ -1,4 +1,4 @@
 #!/bin/sh
 
-# apk add --no-cache mariadb mariadb-client
+apk add --no-cache mariadb mariadb-client
 mkdir -m 0777 /run/mysqld
